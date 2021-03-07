@@ -10,7 +10,7 @@ import cv2
 import numpy as np
 import auto_canny as ac
 
-camera=cv2.VideoCapture(0) #webcamm açmak için 0 yazdık
+camera=cv2.VideoCapture(0) #webcamm açmak için 0 yazdık. Video dosya yolu da girilebilir
 
 while True:
     ret,image=camera.read()
